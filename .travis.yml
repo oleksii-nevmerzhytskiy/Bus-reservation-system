@@ -1,3 +1,5 @@
+before_install:
+  - chmod +x ./manage.py
 language: python
 script:
   ./manage.py test
